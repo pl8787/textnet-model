@@ -151,12 +151,19 @@ this model is an implementation of <a href="https://arxiv.org/abs/1604.04378"> M
 - config file: config/letor.2dgru.config
 
 ---
+### MV-LSTM
+
+this model is an implementation of <a href="https://arxiv.org/abs/1511.08277">A Deep Architecture for Semantic Matching with Multiple Positional Sentence Representations</a>
+
+- config file: models/letor.mvlstm.config
+
+---
 ### ARC-I / ARC-II
 
 this model is an implementation of <a href="https://arxiv.org/abs/1503.03244">Convolutional Neural Network Architectures for Matching Natural Language Sentences</a>
 
-- config config: config/letor.arc1.config
-- config config: config/letor.arc2.config
+- config file: config/letor.arc1.config
+- config file: config/letor.arc2.config
 
 ---
 ### DSSM
