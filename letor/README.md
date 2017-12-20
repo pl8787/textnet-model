@@ -130,3 +130,47 @@ The example config files are in config directory.
     <td> Feature File </td>
 </tr>
 </table>
+
+### DeepRank
+this model is an implementation of <a href="https://arxiv.org/abs/1710.05649"> DeepRank: A New Deep Architecture for Relevance Ranking in Information Retrieval </a>
+
+- config file: config/letor.deeprank.pyramid.config
+- config file: config/letor.deeprank.2dgru.config
+
+---
+### MatchPyramid
+
+this model is an implementation of <a href="https://arxiv.org/abs/1602.06359"> Text Matching as Image Recognition</a>
+
+- config file: config/letor.pyramid.config
+
+---
+### Match-SRNN
+this model is an implementation of <a href="https://arxiv.org/abs/1604.04378"> Match-SRNN: Modeling the Recursive Matching Structure with Spatial RNN </a>
+
+- config file: config/letor.2dgru.config
+
+---
+### ARC-I / ARC-II
+
+this model is an implementation of <a href="https://arxiv.org/abs/1503.03244">Convolutional Neural Network Architectures for Matching Natural Language Sentences</a>
+
+- config config: config/letor.arc1.config
+- config config: config/letor.arc2.config
+
+---
+### DSSM
+
+this model is an implementation of <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/cikm2013_DSSM_fullversion.pdf">Learning Deep Structured Semantic Models for Web Search using Clickthrough Data</a>
+
+- config file: models/letor.dssm.config
+
+---
+### CDSSM
+
+this model is an implementation of <a href="https://www.microsoft.com/en-us/research/publication/learning-semantic-representations-using-convolutional-neural-networks-for-web-search/">Learning Semantic Representations Using Convolutional Neural Networks for Web Search</a>
+
+- config file: models/letor.cdssm.config
+
+
+

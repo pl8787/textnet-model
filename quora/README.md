@@ -76,7 +76,7 @@ wid   embedding
 
 ## Config Files
 
-The example config file is [config/quora_blend.config](https://github.com/pl8787/textnet-model/blob/dev/quora/config/quora_blend.config).
+The example config file is [config/quora_blend.config](config/quora_blend.config).
 
 <table>
 <tr>
